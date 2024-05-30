@@ -45,7 +45,7 @@ const QuestionScreen = () => {
       ];
     }
 
-    return array;
+    return array.slice(0, 20);
   };
 
   useEffect(() => {
