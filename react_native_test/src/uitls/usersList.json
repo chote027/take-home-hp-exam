@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "username": "A",
+    "name": "Ant",
+    "score": 10
+  },
+  {
+    "id": "2",
+    "username": "B",
+    "name": "Bird",
+    "score": 20
+  },
+  {
+    "id": "3",
+    "username": "C",
+    "name": "Cat",
+    "score": 17
+  },
+  {
+    "id": "4",
+    "username": "D",
+    "name": "Dog",
+    "score": 5
+  }
+]

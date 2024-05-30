@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -78,6 +81,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -128,3 +132,22 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Expo
+.expo/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# macOS
+.DS_Store
+*.pem
